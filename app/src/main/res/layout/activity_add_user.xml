@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout :android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_user"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="#5FBDFF"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Tìm bạn bè"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"/>
+        <ImageButton
+            android:id="@+id/add_user_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:background="@null"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"/>
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/main_search_user"/>
+
+    <EditText
+        android:id="@+id/add_user_search"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:hint="User name"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/square3_bg"
+        android:layout_marginLeft="20dp"/>
+    <ImageButton
+        android:id="@+id/add_user_find"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/search"
+        android:background="@null"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="-55dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/add_user_search_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_search_user"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ade8f4"
+    android:orientation="vertical"
+    tools:context=".splash_layout">
+
+    <ImageView
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/nghienchatlogo2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ai rồi cũng"
+            android:fontFamily="@font/boostblack_ex1"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nghiện Chat !"
+            android:fontFamily="@font/boostblack_ex1"
+            android:textSize="40dp"
+            android:textColor="#480ca8"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/splash_ProressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:indeterminateTint="@color/white"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>

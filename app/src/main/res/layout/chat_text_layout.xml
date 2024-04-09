@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/square3_bg"
+        android:id="@+id/chat_you_layout"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:padding="10dp"
+        android:layout_marginEnd="80dp"
+        >
+        <TextView
+            android:id="@+id/chat_text_you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chào ! Đang Nghiện Chat"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/square3_bg"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="80dp"
+        android:id="@+id/chat_me_layout"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/chat_text_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chào ! Nghiện Chat nha"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

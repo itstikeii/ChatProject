@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/search_row_cardview"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="12dp"
+    android:background="#ade8f4"
+    app:cardCornerRadius="16dp"
+    android:paddingBottom="10dp"
+    android:layout_margin="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+       <include layout="@layout/profile_avt"
+          android:layout_gravity="center"
+           android:layout_width="60dp"
+           android:layout_height="60dp"/>
+        <TextView
+            android:id="@+id/chat_recent_row_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            tools:text="Tên hiển thị"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"/>
+        <TextView
+        android:id="@+id/chat_recent_row_lassTextTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="130dp"
+        android:textSize="12dp"/>
+        <TextView
+            android:id="@+id/chat_recent_row_lassText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="-220dp"
+            tools:text="Last text"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

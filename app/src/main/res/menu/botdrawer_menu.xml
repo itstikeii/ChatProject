@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Trò chuyện"
+        android:icon="@drawable/chats"
+        android:id="@+id/botDrawer_chats"/>
+    <item android:title="Tài Khoản"
+        android:icon="@drawable/profile"
+        android:id="@+id/botDrawer_profile"/>
+
+
+</menu>

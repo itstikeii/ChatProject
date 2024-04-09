@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929307178680",
+    "project_id": "nghienchat-4c4f1",
+    "storage_bucket": "nghienchat-4c4f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929307178680:android:36a9fab0dddd423a1d264d",
+        "android_client_info": {
+          "package_name": "com.tikeii.nghienchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhuZRYvXxUKFqQuX_1cNO8npTH4956k8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

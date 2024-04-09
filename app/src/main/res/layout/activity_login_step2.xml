@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/two"
+           />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/password"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP sent to your phone numbers"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/login_stp2_otp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="OTP"
+        android:gravity="center"
+        android:inputType="number"
+        android:background="@drawable/square_bg"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"/>
+    <ProgressBar
+        android:id="@+id/login_stp2_proogressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="100dp"/>
+
+    <ImageButton
+        android:id="@+id/login_stp2_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/next"
+        android:background="@null"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="right"/>
+
+
+    <TextView
+        android:id="@+id/login_stp2_reSendOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend OTP in   sec"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"/>
+
+
+</LinearLayout>
